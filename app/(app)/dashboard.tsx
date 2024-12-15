@@ -8,6 +8,7 @@ import {useShallow} from "zustand/react/shallow";
 
 export default function DashboardScreen() {
   const {replace} = useRouter()
+
   return (
     <ScreenContainer>
       <Title name='(app)/dashboard'/>

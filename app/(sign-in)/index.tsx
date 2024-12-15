@@ -9,10 +9,11 @@ import {useShallow} from "zustand/react/shallow";
 export default function SignInScreen() {
   const {login} = useSession(useShallow((state) => ({login: state.login})))
   const {dismissTo} = useRouter()
+
   return (
     <ScreenContainer>
       <Title name='/(sign-in)'/>
-      <Link href='/(sign-in)/help'><LinkText routeName='/(sign-in)/help'/></Link>
+      <Link href='./help'><LinkText routeName='/(sign-in)/help'/></Link>
       <Link href='./forgot-password'><LinkText routeName='/(sign-in)/forgot-password'/></Link>
 
       <Button onPress={async () => {

@@ -18,4 +18,3 @@ export const useSession = create<SessionState>((set) => ({
     return Promise.resolve()
   },
 }))
-
