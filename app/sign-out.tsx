@@ -14,7 +14,7 @@ export default function SignOutScreen() {
     const timer = setTimeout(async () => {
       await logout();
       dismissTo('/(sign-in)');
-    }, 3000);
+    }, 1500);
     return () => clearTimeout(timer);
   }, [])
 

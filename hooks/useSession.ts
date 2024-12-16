@@ -8,7 +8,7 @@ interface SessionState {
 }
 
 export const useSession = create<SessionState>((set) => ({
-  isAuthenticated: false,
+  isAuthenticated: true,
   login: () => {
     set({isAuthenticated: true})
     return Promise.resolve()

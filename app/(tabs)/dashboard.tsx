@@ -11,8 +11,8 @@ export default function DashboardScreen() {
 
   return (
     <ScreenContainer>
-      <Title name='(app)/dashboard'/>
-      <Button onPress={() => replace('/(app)/sign-out')}>
+      <Title name='(tabs)/dashboard'/>
+      <Button onPress={() => replace('/sign-out')}>
         Sign out
       </Button>
     </ScreenContainer>
