@@ -7,7 +7,7 @@ export default function ShopScreen() {
   return (
     <ScreenContainer>
       <Title name='/(tabs)/shop'/>
-      <Link href='./product'><LinkText routeName='/(shop)/product' /></Link>
+      <Link href='/(shared)/product'><LinkText routeName='some products details'/> </Link>
     </ScreenContainer>
   )
 }

@@ -7,6 +7,7 @@ export default function ListsScreen() {
   return (
     <ScreenContainer>
       <Title name='/(tabs)/lists'/>
+      <Link href='/(shared)/product'><LinkText routeName='some products details'/> </Link>
     </ScreenContainer>
   )
 }
